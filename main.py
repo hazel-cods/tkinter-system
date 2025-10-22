@@ -55,10 +55,10 @@ class DashboardApp(tk.Frame):
 
         if page == "profile":
             self.main_frame.config(bg="#faeab1")
-            tk.Label(self.main_frame, text="Profile Page", bg="#faeab1", font=("Arial", 18, "bold")).pack(pady=50)
+            tk.Label(self.main_frame, text="Profile Page", bg="#34656d", font=("Arial", 18, "bold")).pack(pady=50)
         elif page == "subjects":
             self.main_frame.config(bg="#faeab1")
-            tk.Label(self.main_frame, text="Subjects Page", bg="#faeab1", font=("Arial", 18, "bold")).pack(pady=50)
+            tk.Label(self.main_frame, text="Subjects Page", bg="#34656d", font=("Arial", 18, "bold")).pack(pady=50)
 
 # ---------------- MAIN APP ---------------- #
 class MainApp(tk.Tk):
